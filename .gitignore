@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Cypress examples
+/client/cypress/integration/examples
+/client/cypress/fixtures/example.json
+/client/cypress/fixtures/profile.json
+/client/cypress/fixtures/users.json
+
+# Cypress outputs
+/client/cypress/screenshots
