@@ -4,6 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import QuoteText from './QuoteText';
 import QuoteAuthor from './QuoteAuthor';
+import Button from './Button';
 
 // eslint-disable-next-line arrow-body-style
 const QuoteCard = ({ text, author }) => {
@@ -11,6 +12,10 @@ const QuoteCard = ({ text, author }) => {
     <div className="quote-card" data-cy="quote-card">
       <QuoteText text={text} />
       <QuoteAuthor author={author} />
+      <div>
+        <Button>Tweet</Button>
+        <Button>Request</Button>
+      </div>
     </div>
   );
 };
