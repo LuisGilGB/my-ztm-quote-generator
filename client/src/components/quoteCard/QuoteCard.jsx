@@ -4,8 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import QuoteText from '../quoteText/QuoteText';
 import QuoteAuthor from '../quoteAuthor/QuoteAuthor';
-import Button from '../button/Button';
-import { TwitterButton } from '../button';
+import QuoteFooter from '../quoteFooter/QuoteFooter';
 import './QuoteCard.css';
 
 // eslint-disable-next-line arrow-body-style
@@ -14,10 +13,7 @@ const QuoteCard = ({ text, author }) => {
     <div className="quote-card" data-cy="quote-card">
       <QuoteText text={text} />
       <QuoteAuthor author={author} />
-      <div>
-        <TwitterButton />
-        <Button>Request</Button>
-      </div>
+      <QuoteFooter />
     </div>
   );
 };
