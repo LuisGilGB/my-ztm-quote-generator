@@ -6,6 +6,7 @@ import QuoteText from '../quoteText/QuoteText';
 import QuoteAuthor from '../quoteAuthor/QuoteAuthor';
 import Button from '../button/Button';
 import './QuoteCard.css';
+import { TwitterButton } from '../button';
 
 // eslint-disable-next-line arrow-body-style
 const QuoteCard = ({ text, author }) => {
@@ -14,7 +15,7 @@ const QuoteCard = ({ text, author }) => {
       <QuoteText text={text} />
       <QuoteAuthor author={author} />
       <div>
-        <Button>Tweet</Button>
+        <TwitterButton />
         <Button>Request</Button>
       </div>
     </div>
