@@ -1,4 +1,4 @@
-import QuoteCard from './components/QuoteCard';
+import QuoteCard from './components/quoteCard/QuoteCard';
 
 const App = () => (
   <div className="app">
