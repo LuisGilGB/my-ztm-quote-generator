@@ -2,9 +2,9 @@
 import React from 'react';
 // eslint-disable-next-line no-unused-vars
 import PropTypes from 'prop-types';
-import QuoteText from '../QuoteText';
-import QuoteAuthor from '../QuoteAuthor';
-import Button from '../Button';
+import QuoteText from '../quoteText/QuoteText';
+import QuoteAuthor from '../quoteAuthor/QuoteAuthor';
+import Button from '../button/Button';
 import './QuoteCard.css';
 
 // eslint-disable-next-line arrow-body-style

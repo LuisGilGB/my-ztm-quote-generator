@@ -8,4 +8,6 @@ const QuoteText = ({ text }) => {
   return <div data-cy="quote-text">{text}</div>;
 };
 
+QuoteText.propTypes = {};
+
 export default QuoteText;
